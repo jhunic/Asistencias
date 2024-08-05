@@ -70,3 +70,10 @@ select t.*, t.rowid from ARCKCL t where no_cta = '10013600009335' and cheque = 2
 select t.*, t.rowid from ARCKMM t where no_cta = '10013600009335' and no_docu = 20026;
 select t.*, t.rowid from ARCKES t where no_cta = '10013600009335' and no_secuencia = 36;
 
+--San José de los Remates 02 de agosto 2024 3 minutos
+
+select t.*, t.rowid from ARCKCE t where no_cta = '106009722' and cheque = 1677;
+select t.*, t.rowid from ARCKCL t where no_cta = '106009722' and cheque = 1677;
+select t.*, t.rowid from ARCKMM t where no_cta = '106009722' and no_docu = 1677;
+select t.*, t.rowid from ARCKES t where no_cta = '106009722' and no_secuencia = 79
+

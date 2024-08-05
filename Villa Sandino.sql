@@ -22,4 +22,13 @@ select t.*, t.rowid from arccca t where no_docu = 'B0340793';
 select t.*, t.rowid from arcccad t where no_recibo = 'B0340793';
 select t.*, t.rowid from arccdc t where no_docu = 'B0340793';
 
+--Villa Sandino 05 de agosto 2024 17 minutos
+
+select t.*, t.rowid from arckce t where no_cta = '1001-080-0000965' and cheque = 22220;
+select t.*, t.rowid from arckcl t where no_cta = '1001-080-0000965' and cheque = 22220;
+select t.*, t.rowid from arckmm t where no_cta = '1001-080-0000965' and no_docu = 22220;
+select t.*, t.rowid from arckes t where no_cta = '1001-080-0000965' and no_secuencia = 934;
+
+update fp_eppto set estado = 'P' where eppto_id = 262 and ano = 2024;
+commit;
 

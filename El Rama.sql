@@ -431,6 +431,15 @@ select t.*, t.rowid from ARCKES t where no_cta = '850200114' and no_secuencia = 
 update fp_eppto set estado = 'P' where eppto_id = '681' or eppto_id = '649';
 commit;
 
+--El Rama 31 de julio 2024 6 minutos
 
+select t.*, t.rowid from ARCKCE t where no_cta = '10010800002284' and cheque = 21954;
+select t.*, t.rowid from arckdigv t where no_cta = '10010800002284' and no_secuencia = 174;
+select t.*, t.rowid from ARCKCL t where no_cta = '10010800002284' and cheque = 21954;
+select t.*, t.rowid from ARCKMM t where no_cta = '10010800002284' and no_docu = 21954;
+select t.*, t.rowid from ARCKES t where no_cta = '10010800002284' and no_secuencia = 174;
+
+update fp_eppto set estado = 'P' where eppto_id = 716;
+commit;
 
 

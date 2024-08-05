@@ -19,4 +19,9 @@ select t.*, t.rowid from ARCKES t where no_cta = '10010800010378' and (no_secuen
 update fp_eppto set estado = 'P' where eppto_id = 14 or eppto_id = 15 or eppto_id = 16;
 commit;
 
+--Santo Domingo 31 de julio 2024 6 minutos
+
+select t.*, t.rowid from ARCKMM t where no_cta = '10010800010378' and (no_docu = '56916542' or no_docu = '56237050');
+select t.*, t.rowid from ARCKML t where no_cta = '10010800010378' and no_docu = '56916542' or no_docu = '56237050';
+
 
